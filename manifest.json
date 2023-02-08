@@ -1,0 +1,20 @@
+{
+   "name": "Copy JIRA Key",
+   "version":"1.0.0",
+   "description": "This extension copies the JIRA Key from the URL of the active tab to the clipboard",
+   "permissions":[
+      "activeTab",
+      "tabs",
+      "storage",
+      "scripting"
+   ],
+   "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+         "16":"icons/toolbar-icon-16.png",
+         "48":"icons/toolbar-icon-48.png",
+         "128":"icons/icon-128.png"
+      }
+   },
+   "manifest_version":3
+}
